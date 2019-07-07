@@ -8,7 +8,7 @@ public class FileOperation {
     public void write_topFive_in_file(TreeMap<Integer,String> topFive){
         try{
             // Open the top_five file
-            FileOutputStream fostream = new FileOutputStream("/home/saikat/IdeaProjects/uva-stats/file/top_five.txt");
+            FileOutputStream fostream = new FileOutputStream(""file_path"/file/top_five.txt");
 
             // Get the object of DataOutputStream
             DataOutputStream out = new DataOutputStream(fostream);
@@ -68,8 +68,8 @@ public class FileOperation {
         // Read User Name from File and write in File
         try{
             // Open the file
-            FileInputStream fstream = new FileInputStream("/home/saikat/IdeaProjects/uva-stats/file/input.txt");
-            FileOutputStream fostream = new FileOutputStream("/home/saikat/IdeaProjects/uva-stats/file/output.txt");
+            FileInputStream fstream = new FileInputStream(""file_path"/file/input.txt");
+            FileOutputStream fostream = new FileOutputStream(""file_path"/file/output.txt");
 
             // Get the object of DataInputStream
             DataInputStream in = new DataInputStream(fstream);
