@@ -1,12 +1,24 @@
+import java.util.AbstractMap;
+
 // Saikat Sharma
 // @Saikat
 public class Main {
     public static void main(String[] args) throws Exception {
         // Create objects
-        UvaStats obj = new UvaStats();
+
+        // for uva information
+
+        //UvaStats obj = new UvaStats();
         FileOperation fileOp = new FileOperation();
 
-        fileOp.read_write_from_file();
+        //fileOp.read_write_from_file_uva();
+        fileOp.read_write_from_file_codeforces();
+
+
+        // for codeforces informantion
+        //Codeforces cf_obj = new Codeforces();
+        //AbstractMap.SimpleEntry<Integer, String> rating = cf_obj.get_user_rating("the_belal");
+        //System.out.println("User Rating : " + rating);
 
         //From user input
         /*

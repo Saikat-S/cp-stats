@@ -51,7 +51,7 @@ public class UvaStats {
         String usrId = get_id(usr_id);
 
         // create a request
-        String id_info_url1 =  "https://uhunt.onlinejudge.org/api/subs-user/"+usrId+"";
+            String id_info_url1 =  "https://uhunt.onlinejudge.org/api/subs-user/"+usrId+"";
 
         URL url1 = new URL(id_info_url1);
 
@@ -110,7 +110,7 @@ public class UvaStats {
         //System.out.println("Your Name : " + name);
 
 
-        // Pair name and total ac problem
+        // Pair total AC problem and name of the user
         AbstractMap.SimpleEntry<Integer, String> entry = new AbstractMap.SimpleEntry<>(cnt, name);
 
         return entry;
