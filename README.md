@@ -2,7 +2,7 @@
 
 A competitive programming information tools.
 
-## What is cp-stats
+## What is cp-stats?
      Loading ....
 ### Input File Structure
 
@@ -14,6 +14,7 @@ A competitive programming information tools.
 #### Demo Structure
 
 Uva and Codeforces user name
+
 | nth Batch |
 |-----------|
 |   user1   |
@@ -46,6 +47,7 @@ Output is two part one part is all user information and other part is top five u
 #### Demo Structure
 
 Uva User
+
 | User Name | Total Solve |
 |-----------|-------------|
 |   user1   |     a      |
@@ -57,6 +59,7 @@ Uva User
 |   userN   |     z       |
 
 Top Five Uva User
+
 | User Name | Total Solve |
 |-----------|-------------|
 |   user1   |     a       |
@@ -66,6 +69,7 @@ Top Five Uva User
 |   user5   |     e       |
 
 Codeforces User
+
 | User Name | Rating | Number of Contest |
 |-----------|--------|-------------------|
 |   user1   |   x1   |       y1          |
@@ -77,6 +81,7 @@ Codeforces User
 |   userN   |   xN   |       yN          |
 
 Top Five Codeforces User
+
 | User Name | Rating | Number of Contest |
 |-----------|--------|-------------------|
 |   user1   |   x1   |       y1          |
