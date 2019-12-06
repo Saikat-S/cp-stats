@@ -9,7 +9,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 public class Codeforces {
-    public AbstractMap.SimpleEntry<Integer, String> get_user_rating(String handle) throws Exception{
+    public AbstractMap.SimpleEntry<Integer, Integer> get_user_rating(String handle) throws Exception{
         String url = "https://codeforces.com/api/user.rating?handle="+handle;
 
         // Send Http request:
@@ -37,21 +37,15 @@ public class Codeforces {
         // Get array from JSONobject
         JSONArray arr = obj1.getJSONArray("result");
 
-        int last_index = arr.length()-1;
+        int total_contest = arr.length();
 
-        int rating  = arr.getJSONObject(last_index).getInt("newRating");
+        int rating  = arr.getJSONObject(total_contest-1).getInt("newRating");
 
         //System.out.println("User Rating :::- " +rating);
 
         // Pair rating and name of the user
-        AbstractMap.SimpleEntry<Integer, String> entry = new AbstractMap.SimpleEntry<>(rating, handle);
+        AbstractMap.SimpleEntry<Integer, Integer> entry = new AbstractMap.SimpleEntry<>(rating, total_contest);
         //return rating;
         return entry;
     }
-
-    public void save_user_rating(){
-
-    }
-
-
 }

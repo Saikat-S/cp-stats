@@ -11,8 +11,10 @@ public class Main {
         //UvaStats obj = new UvaStats();
         FileOperation fileOp = new FileOperation();
 
-        //fileOp.read_write_from_file_uva();
+        fileOp.read_write_from_file_uva();
         fileOp.read_write_from_file_codeforces();
+        fileOp.read_write_from_file_female();
+        fileOp.read_write_from_file_jurior();
 
 
         // for codeforces informantion
