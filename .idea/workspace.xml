@@ -3,19 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="69f266d4-fffe-475d-9e6f-a94ba95e57dc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/codeforces_top_five.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/codeforces_user_handle.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/codeforces_user_rating.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/female_uva_top_five.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/female_uva_user.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/junior_uva_top_five.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/junior_uva_user.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/uva_top_five.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/uva_user_name.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/uva_user_solve.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Codeforces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codeforces.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +92,7 @@
       <workItem from="1562502422954" duration="10470000" />
       <workItem from="1567442518071" duration="1294000" />
       <workItem from="1575625643665" duration="5317000" />
-      <workItem from="1575639865068" duration="3650000" />
+      <workItem from="1575639865068" duration="4425000" />
     </task>
     <servers />
   </component>
