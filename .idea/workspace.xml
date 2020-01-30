@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="69f266d4-fffe-475d-9e6f-a94ba95e57dc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/input_file/codeforces_user_handle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/file/input_file/codeforces_user_handle.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,6 +94,7 @@
       <workItem from="1567442518071" duration="1294000" />
       <workItem from="1575625643665" duration="5317000" />
       <workItem from="1575639865068" duration="6228000" />
+      <workItem from="1580394034551" duration="673000" />
     </task>
     <servers />
   </component>
