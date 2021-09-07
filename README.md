@@ -3,7 +3,8 @@
 A competitive programming information tools.
 
 ## What is cp-stats?
-     Loading ....
+A competitive programming tool that takes handles and gives their statistics from online judges.
+
 ### Input File Structure
 
  - [Codeforces user handle](https://github.com/Saikat-S/uva-stats/blob/master/file/input_file/codeforces_user_handle.txt)
